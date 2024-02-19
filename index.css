@@ -35,8 +35,8 @@ header{
 header .logo{
     position: relative;
     border-radius: 150px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     
 }
 header .navigation a{
