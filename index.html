@@ -5,10 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> - Welcome</title>
     <link rel="stylesheet" href="index.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        .navigation a {
+            margin-left: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+        .content {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .info h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .info p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .media-icons a {
+            margin-left: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        @media (max-width: 767px) {
+            .navigation a {
+                display: block;
+                margin: 10px 0;
+            }
+            .media-icons {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    </style>
 </head>
 <body>
-     <section>
+    <section class="container">
         <header>
             <img src="logo.jpg" class="logo">
             <div class="navigation">
@@ -18,7 +70,7 @@
                 <a href="transaction.html">Transaction</a>
             </div>
         </header>
-          <div class="content">
+        <div class="content">
             <div class="info">
                 <h1>Virtual Vortex</h1>
                 <p>Welcome to Virtual Vortex.<br>Immense yourself in innovative gaming experiences, from thrilling competitions to solo adventures. Join us in redefining the gaming landscape and embark on unforgettable virtual journeys.</p>
