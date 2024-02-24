@@ -1,35 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100;1,400&display=swap');
 
-*{ margin: 0; padding: 0; box-sizing: border-box; font-family: "poppins", sans-serif; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-body { background-image: url('background.jpg'); background-size: cover; background-position: center; }
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
-section{ position: relative; width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(3.jpg); background-size: cover; background-position: center; }
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(3.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-header{ position: relative; top: 0; width: 100%; padding: 30px 10px; display: flex; justify-content: space-between; align-items: center; }
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-header .logo{ position: relative; border-radius: 150px; width: 150px; height: 150px; }
+header .logo {
+  position: relative;
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+}
 
-header .navigation a{ color: #fff; font-size: 20px; text-decoration: none; font-weight: 500; letter-spacing: 1px; padding: 2px 20px; }
+header .navigation a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 20px;
+}
 
-.content{ max-width: 100%; padding: 80px 10px; }
+.content {
+  max-width: 100%;
+  padding: 80px 10px;
+}
 
-.content .info h1{ color: #fff; font-size: 30px; letter-spacing: 2px; line-height: 60px; margin-bottom: 20px; }
+.content .info h1 {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
 
-.content .info p{ color: #fff; font-size: 18px; font-weight: 500; }
+.content .info p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
 
-.media-icons{ display: flex; justify-content: left; margin: 0px 10px; }
+.media-icons {
+  display: flex;
+  justify-content: left;
+  margin: 0px 10px;
+}
 
-.media-icons a{ position: relative; color: #fff; font-size: 25px; transition: 0.6s; transition-property: transform; }
+.media-icons a {
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  transition: 0.6s;
+  transition-property: transform;
+}
 
-.media-icons a:not(:last-child){ margin-right: 50px; }
+.media-icons a:not(:last-child) {
+  margin-right: 50px;
+}
 
-.media-icons a:hover{ transform: scale(1.5); }
+.media-icons a:hover {
+  transform: scale(1.5);
+}
 
 @media screen and (max-width: 768px) {
-  header .navigation a{ font-size: 18px; padding: 2px 15px; }
+  header .navigation a {
+    font-size: 18px;
+    padding: 2px 15px;
+  }
 
-  .content .info h1{ font-size: 40px; }
+  .content .info h1 {
+    font-size: 40px;
+  }
 
-  .media-icons a{ font-size: 20px; }
+  .media-icons a {
+    font-size: 20px;
+  }
 }
+
