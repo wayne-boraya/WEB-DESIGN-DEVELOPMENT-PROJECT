@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VirtualVortex - Products</title>
+    <title>Virtual Store</title>
+    <style>
+        .cart {
+            display: inline-block;
+            margin-left: 10px;
+            border: 1px solid #000;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .cart img {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
 </head>
 <body style="background-image: url('gameco_background.jpg');">
     <header>
@@ -12,10 +25,13 @@
     <main>
         <h2>Photoshop for Game Designers</h2>
         <img src="photoshop.jpg" alt="Photoshop for Game Designers">
+        <button class="cart" onclick="addToCart('Photoshop for Game Designers')">Add to Cart</button>
         <h2>Game Development Tools</h2>
         <img src="game_development_tools.jpg" alt="Game Development Tools">
+        <button class="cart" onclick="addToCart('Game Development Tools')">Add to Cart</button>
         <h2>Virtual Reality Headsets</h2>
         <img src="vr_headsets.jpg" alt="Virtual Reality Headsets">
+        <button class="cart" onclick="addToCart('Virtual Reality Headsets')">Add to Cart</button>
     </main>
     <footer>
         <p>Copyright © 2024 VirtualVortex. All rights reserved.</p>
@@ -23,4 +39,24 @@
     <nav>
         <a href="index.html">Home</a> |
         <a href="advertisements.html">Advertisements</a> |
-        <a href="transaction.html">Online Transactions</
+        <a href="transaction.html">Online Transactions</a>
+    </nav>
+    <script>
+        let cart = [];
+
+        function addToCart(product) {
+            cart.push(product);
+            alert('Product added to cart: ' + product);
+        }
+
+        function viewCart() {
+            let cartContent = '';
+            for (let i = 0; i < cart.length; i++) {
+                cartContent += cart[i] + '<br>';
+            }
+            alert('Your Cart: ' + cartContent);
+        }
+    </script>
+</body>
+</html>
+   
