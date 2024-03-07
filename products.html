@@ -1,39 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Store</title>
-    <body background="back.jpg">
-    <style>
-        .cart {
-            display: inline-block;
-            margin-left: 10px;
-            border: 1px solid #000;
-            padding: 5px;
-            cursor: pointer;
-        }
-        .cart img {
-            width: 20px;
-            height: 20px;
-        }
-    </style>
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url('gameco_background.jpg');">
-    <header>
-        <h1>VirtualVortex - Products</h1>
-    </header>
-    <main>
-        <h2>Photoshop for Game Designers</h2>
-        <img src="photoshop.jpg" alt="Photoshop for Game Designers">
-        <button class="cart" onclick="addToCart('Photoshop for Game Designers')">Add to Cart</button>
-        <h2>Game Development Tools</h2>
-        <img src="game_development_tools.jpg" alt="Game Development Tools">
-        <button class="cart" onclick="addToCart('Game Development Tools')">Add to Cart</button>
-        <h2>Virtual Reality Headsets</h2>
-        <img src="vr_headsets.jpg" alt="Virtual Reality Headsets">
-        <button class="cart" onclick="addToCart('Virtual Reality Headsets')">Add to Cart</button>
-    </main>
+<body>
+    <h1>PRODUCTS OFFERED</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://assets-prd.ignimgs.com/2023/11/16/best-consoles-1700169498518.png" alt="consoles">
+            <br>
+            <a href="consoles.html">consoles</a>
+        </div>
+        <div class="grid-item">
+            <img src="https://cdn.thewirecutter.com/wp-content/media/2023/12/pc-gaming-controller-2048px-5864-3x2-1.jpg" alt="controllers">
+            <br>
+            <a href="controllers.html">controllers</a>
+        </div>
+        <div class="grid-item">
+            <img src="https://involvement.co.ke/wp-content/uploads/2022/10/most-popular-video-games-of-2022-1642612227.png" alt="games">
+            <br>
+            <a href="games.html">games</a>
+        </div>
+    </div>
     <footer>
         <p>Copyright © 2024 VirtualVortex. All rights reserved.</p>
     </footer>
@@ -42,22 +31,6 @@
         <a href="advertisements.html">Advertisements</a> |
         <a href="transaction.html">Online Transactions</a>
     </nav>
-    <script>
-        let cart = [];
-
-        function addToCart(product) {
-            cart.push(product);
-            alert('Product added to cart: ' + product);
-        }
-
-        function viewCart() {
-            let cartContent = '';
-            for (let i = 0; i < cart.length; i++) {
-                cartContent += cart[i] + '<br>';
-            }
-            alert('Your Cart: ' + cartContent);
-        }
-    </script>
 </body>
 </html>
    
