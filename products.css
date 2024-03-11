@@ -46,6 +46,11 @@ h1 {
 .grid-item a {
     color: #2196F3;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
 }
 
 .grid-item:hover {
@@ -57,4 +62,3 @@ footer, nav {
     float: right;
     margin-top: 20px;
 }
-   
