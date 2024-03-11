@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-    color: #2196F3;
+    color: #fff; /* Changed color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow */
     text-align: center;
 }
 
@@ -41,3 +42,4 @@ h1 {
     transform: translateY(-10px);
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
 }
+   
