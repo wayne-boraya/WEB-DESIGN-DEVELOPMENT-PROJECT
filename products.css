@@ -10,6 +10,16 @@ h1 {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    flex: 1;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -41,5 +51,10 @@ h1 {
 .grid-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer, nav {
+    float: right;
+    margin-top: 20px;
 }
    
