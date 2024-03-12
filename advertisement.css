@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#adpage1{
+    height: 100vh;
+}
+.adpage1-header{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 157, 157);
+}
+.adpage-logo{
+    height: 150px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.navbar{
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: 0.4s;
+    transition-property: transform;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.p1img1{
+    height: 500px;
+    width: 80%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.p1text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+.shop-button1{
+    height: 30px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 6px;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+.shop-button1:hover{
+    color: black;
+    background-color: rgb(157, 157, 157);
+}
+
+#adpage2{
+    height: 100vh;
+    background-image: url(adpage-images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.p2body{
+    display: flex;
+    flex-direction: column;
+    font-size: 38px;
+    text-align: center;
+}
+.p2text{
+    color: white;
+    font-weight: bold;
+}
+
+#adpage3{
+    height: 100vh;
+    background-color: rgb(234, 246, 251);
+}
+.p3images{
+    display: flex;
+}
+.p3img1,.p3img2{
+    height: 500px;
+    width: 680px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    padding: 22px;
+    padding-top: 42px;
+    align-items: center;
+}
+.p3text{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 16px;
+}
