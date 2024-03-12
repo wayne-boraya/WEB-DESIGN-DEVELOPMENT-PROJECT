@@ -14,7 +14,7 @@
   justify-content: right;
   align-items: center;
   padding:25px;
-  background-image: url (back.jpg);
+  background-image: url('back.jpg');
   background-size: cover;
   background-position: center;
 }
