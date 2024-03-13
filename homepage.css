@@ -138,7 +138,7 @@ ul {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(250, 233, 2, 0.984);
+    background-color: #ddd;
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
