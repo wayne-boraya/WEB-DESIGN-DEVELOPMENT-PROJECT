@@ -51,12 +51,14 @@ h1 {
     padding: 5px;
     display: block;
     text-align: center;
+    font-family: 'Roboto', sans-serif; /* Changed font style */
 }
 
 .grid-item:hover {
     transform: translateY(-10px);
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
 }
+
 footer, nav {
     background-color: rgba(0, 0, 0, 0.5); /* Added background color */
     padding: 10px; /* Added padding */
@@ -68,3 +70,4 @@ footer, nav {
     bottom: 0; /* Added bottom property */
     width: 100%; /* Added width property */
 }
+   
