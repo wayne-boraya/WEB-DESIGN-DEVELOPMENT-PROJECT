@@ -57,8 +57,14 @@ h1 {
     transform: translateY(-10px);
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
 }
-
 footer, nav {
-    float: right;
-    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Added background color */
+    padding: 10px; /* Added padding */
+    text-align: center;
+    color: #fff; /* Changed color to white */
+    font-size: 14px; /* Changed font size */
+    font-family: 'Courier New', monospace; /* Changed font style */
+    position: absolute; /* Added position property */
+    bottom: 0; /* Added bottom property */
+    width: 100%; /* Added width property */
 }
