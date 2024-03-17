@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Vortex- Homepage</title>
+    <title>Virtual Vortex - Homepage</title>
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Add some basic styles for the marquee element */
+        marquee {
+            width: 100%;
+            white-space: nowrap;
+        }
+    </style>
 </head>
-<body>
+<body class="container">
     <header class="banner">
         <div class="navbar">
             <img src="logo3.png" alt="Virtual Vortex Logo" class="logo">
@@ -23,7 +30,8 @@
         </div>
         <div class="content">
             <h1>Welcome to Virtual Vortex: Your Ultimate Destination for Gaming Supplies</h1>
-            <p>Virtual Vortex emerged in the early 2000s as a small indie studio, founded by passionate developers aiming to innovate gaming technology. Their early releases gained acclaim for blending traditional genres with cutting-edge mechanics, setting a precedent for immersive storytelling. By the 2010s, Virtual Vortex solidified its position in the industry, renowned for pushing boundaries and delivering quality experiences. Embracing emerging technologies like VR and AR, the company continued to innovate, creating groundbreaking gaming experiences. Today, Virtual Vortex stands as a titan, inspiring both players and developers with its commitment to excellence and pioneering spirit.At Virtual Vortex, we're more than just an online store—we're a haven for gamers, offering a diverse range of high-quality gaming supplies to fuel your passion and elevate your gaming experience. Whether you're a casual player, a competitive gamer, or an avid collector, we have everything you need to level up your game and immerse yourself in the world of gaming like never before.</p>
+            <p>Virtual Vortex emerged in the early 2000s as a small indie studio, founded by passionate developers aiming to innovate gaming technology. Their early releases gained acclaim for blending traditional genres with cutting-edge mechanics, setting a precedent for immersive storytelling. By the 2010s, Virtual Vortex solidified its position in the industry, renowned for pushing boundaries and delivering quality experiences. Embracing emerging technologies like VR and AR, the company continued to innovate, creating groundbreaking gaming experiences. Today, Virtual Vortex stands as a titan, inspiring both players and developers with its commitment to excellence and pioneering spirit.
+                At Virtual Vortex, we're more than just an online store—we're a haven for gamers, offering a diverse range of high-quality gaming supplies to fuel your passion and elevate your gaming experience. Whether you're a casual player, a competitive gamer, or an avid collector, we have everything you need to level up your game and immerse yourself in the world of gaming like never before.</p>
             <div class="mission-vision">
                 <div class="mission">
                     <h2>Mission:</h2>
@@ -31,10 +39,33 @@
                 </div>
                 <div class="vision">
                     <h2>Vision:</h2>
-                    <p>Our vision is to become the go-to destination for gamers worldwide, recognized for our commitment to excellence, innovation, and customer satisfaction. We aim to foster a vibrant and inclusive gaming community where gamers can come together to share their passion, exchange ideas, and inspire one another to reach new heights in gaming.</p>
+                    <p>Our vision is to become the go-to destination for gamers worldwide, recognized for our commitment to excellence, innovation, and customer satisfaction. We aim tofoster a vibrant and inclusive gaming community where gamers can come together to share their passion, exchange ideas, and inspire one another to reach new heights in gaming.</p>
                 </div>
-        
-                
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://assets-prd.ignimgs.com/2023/11/16/best-consoles-1700169498518.png" alt="consoles">
+                    <br>
+                    <a href="consoles.html" class="no-background">Consoles</a>
+                </div>
+                <div class="grid-item">
+                    <img src="https://cdn.thewirecutter.com/wp-content/media/2023/12/pc-gaming-controller-2048px-5864-3x2-1.jpg" alt="controllers">
+                    <br>
+                    <a href="controllers.html" class="no-background">Controllers</a>
+                </div>
+                <div class="grid-item">
+                    <img src="https://involvement.co.ke/wp-content/uploads/2022/10/most-popular-video-games-of-2022-1642612227.png" alt="games">
+                    <br>
+                    <a href="games.html" class="no-background">Games</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -49,7 +80,7 @@
                 </div>
             </div>
         </div>
-    </footer>   
+    </footer>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -66,14 +97,14 @@
                         <li><a href="FAQ.html">FAQ</a></li>
                     </ul>
                 </div>
-                
+                <div class="footer-col">
+                    <h4>contact us</h4>
                     <p>Phone Number: +25472345678</p>
                     <p>Email: support@virtualvortex.com</p>
-                    <marquee direction="left">Check out our latest deals!</marquee>
                 </div>
             </div>
         </div>
     </footer>
+    <marquee direction="left">Check out our latest deals!</marquee>
 </body>
 </html>
-         
